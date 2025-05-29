@@ -27,7 +27,7 @@ jobs:
         run: ./gradlew assembleDebug
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3@b6ef4b021616dc1135e06f160f12dbbfe09f0a20
         with:
           name: teo-print-apk-debug
           path: app/build/outputs/apk/debug/app-debug.apk
